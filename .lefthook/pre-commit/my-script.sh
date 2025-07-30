@@ -1,8 +1,5 @@
 #!/bin/bash
  
-echo ">> prepare-commit-msg hook triggered" >> /tmp/lefthook-debug.log
-echo "Args: $@" >> /tmp/lefthook-debug.log
-
 # get current branch
 BRANCH_NAME=`git rev-parse --abbrev-ref HEAD`
  

@@ -12,7 +12,6 @@ commit-msg:
   commands:
     commitlint:
       run: npx commitlint --edit
-prepare-commit-msg:
   scripts:
-    "message.sh":
+    "my-script.sh":
       runner: bash
