@@ -10,5 +10,10 @@ pre-commit:
 commit-msg:
   parallel: true
   scripts:
-    "prepare-commit-msg.sh":
+    "my-script.sh":
       runner: bash
+prepare-commit-msg:
+  jobs:
+    - script: "message.sh"
+      runner: bash
+    - run: echo "Git args- {1} {2} {3}"
