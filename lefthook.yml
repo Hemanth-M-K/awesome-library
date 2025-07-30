@@ -10,5 +10,5 @@ pre-commit:
 commit-msg:
   parallel: true
   scripts:
-    "my-script.sh":
+    "prepare-commit-msg.sh":
       runner: bash
