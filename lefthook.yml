@@ -9,9 +9,6 @@ pre-commit:
       run: npx tsc
 commit-msg:
   parallel: true
-  commands:
-    commitlint:
-      run: npx commitlint --edit
   scripts:
     "my-script.sh":
       runner: bash
