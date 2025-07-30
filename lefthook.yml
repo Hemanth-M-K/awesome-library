@@ -12,3 +12,7 @@ commit-msg:
   commands:
     commitlint:
       run: npx commitlint --edit
+prepare-commit-msg:
+  jobs:
+    - script: "message.sh"
+      runner: bash
