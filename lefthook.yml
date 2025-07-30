@@ -14,6 +14,5 @@ commit-msg:
       runner: bash
 prepare-commit-msg:
   jobs:
-    - script: "message.sh"
-      runner: bash
-    - run: echo "Git args- {1} {2} {3}"
+    script: "message.sh"
+    runner: bash
