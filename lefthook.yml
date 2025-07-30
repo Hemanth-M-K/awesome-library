@@ -13,6 +13,5 @@ commit-msg:
     commitlint:
       run: npx commitlint --edit
 prepare-commit-msg:
-  jobs:
-    - script: "message.sh"
-      runner: bash
+  scripts:
+    jira-tag: scripts/hooks/prepare-commit-msg.sh
