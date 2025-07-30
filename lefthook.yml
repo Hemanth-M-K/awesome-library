@@ -12,7 +12,3 @@ commit-msg:
   scripts:
     "my-script.sh":
       runner: bash
-prepare-commit-msg:
-  jobs:
-    script: "message.sh"
-    runner: bash
