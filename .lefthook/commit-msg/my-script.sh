@@ -1,5 +1,7 @@
 #!/bin/bash
- 
+echo "Hello, World!"
+name="Alice"
+echo "My name is $name."
 # get current branch
 BRANCH_NAME=`git rev-parse --abbrev-ref HEAD`
  
